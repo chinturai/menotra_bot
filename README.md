@@ -4,20 +4,21 @@ Welcome to **Gemini Assistant**, an AI-powered chatbot developed by **Evan Lemue
 
 ##  Features
 
-✅ **Intelligent Conversations** –     
-Engages in natural and meaningful discussions using advanced AI processing.
-✅ **Real-time Responses** –      
-Get quick, accurate, and context-aware answers.
-✅ **Text Formatting Support** –      
-Understands and formats responses with bold, line breaks, and structured text.
-✅ **Chat History Tracking** –    
-Keeps track of recent prompts for a smooth chat experience.
-✅ **Loading and State Management** –     
-User-friendly UI with real-time loading indicators.
-✅ **New Chat Feature** – Easily start fresh conversations anytime.
+✅ **Intelligent Conversations** –  
+Engages in natural and meaningful discussions using advanced AI processing.  
+✅ **Real-time Responses** –  
+Get quick, accurate, and context-aware answers.  
+✅ **Text Formatting Support** –  
+Understands and formats responses with bold, line breaks, and structured text.  
+✅ **Chat History Tracking** –  
+Keeps track of recent prompts for a smooth chat experience.  
+✅ **Loading and State Management** –  
+User-friendly UI with real-time loading indicators.  
+✅ **New Chat Feature** –  
+Easily start fresh conversations anytime.  
 
 ## 🔗 Live Demo
-Check out the live version here: [Gemini Assistant](https://gemini-evan-lemuels-projects.vercel.app)
+Check out the live version here: [Gemini Assistant](https://gemini-evan-lemuels-projects.vercel.app/)
 
 ## 🛠️ Technology Stack
 - **HTML** – Provides the basic structure of the web app.
@@ -39,5 +40,5 @@ Check out the live version here: [Gemini Assistant](https://gemini-evan-lemuels-
 
 
 
-👨‍💻 **Developed by Evan Lemuel** 🚀
+**Developed by Evan Lemuel** 
 
