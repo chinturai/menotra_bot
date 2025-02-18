@@ -1,6 +1,6 @@
 # Gemini Assistant 
 
-Welcome to **Gemini Assistant**, an AI-powered chatbot developed by **Evan Lemuel**! This intelligent assistant leverages Google's Gemini AI to provide insightful responses, assist with queries, and enhance user experience with dynamic conversational capabilities.
+Welcome to **Gemini Assistant**, an AI-powered chatbot developed by me! This intelligent assistant leverages Google's Gemini AI to provide insightful responses, assist with queries, and enhance user experience with dynamic conversational capabilities.
 
 ##  Features
 
