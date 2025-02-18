@@ -20,14 +20,14 @@ Easily start fresh conversations anytime.
 ## 🔗 Live Demo
 Check out the live version here: [Gemini Assistant](https://gemini-evan-lemuels-projects.vercel.app/)
 
-## 🛠️ Technology Stack
+##  Tech Stack
 - **HTML** – Provides the basic structure of the web app.
 - **CSS** – Styles the interface to ensure a sleek and modern design.
 - **React.js** – Modern and efficient front-end framework for seamless user interactions.
 - **Google Gemini API** – Powered by cutting-edge AI from Google to generate responses.
 - **Vercel** – Deployment platform ensuring fast and secure hosting.
 
-## 🚀 How It Works
+## How It Works
 1. **User Input**: The assistant takes in a prompt from the user.
 2. **Processing**: The input is sent to the Gemini AI API, which processes and generates a response.
 3. **Dynamic Display**: The response is formatted and displayed with smooth animations.
