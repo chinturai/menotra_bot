@@ -3,7 +3,8 @@
     min-height: 100vh;
     padding-bottom: 15vh;
     position: relative;
-    background-color: #1a1a1a;  /* Dark background */
+    background-color: #1a1a1a;
+    /* Dark background */
 }
 
 .main .nav {
@@ -12,8 +13,10 @@
     justify-content: space-between;
     font-size: 22px;
     padding: 20px;
-    color: #ffffff;  /* Light text */
-    background-color: #242424;  /* Slightly lighter dark */
+    color: #ffffff;
+    /* Light text */
+    background-color: #242424;
+    /* Slightly lighter dark */
 }
 
 .main .nav img {
@@ -29,7 +32,8 @@
 .main .greet {
     margin: 50px 0px;
     font-size: 56px;
-    color: #ffffff;  /* Light text */
+    color: #ffffff;
+    /* Light text */
     padding: 20px;
 }
 
@@ -49,8 +53,10 @@
 .main .card {
     height: 200px;
     padding: 15px;
-    background-color: #242424;  /* Dark card background */
-    border: 1px solid rgba(127, 255, 212, 0.1);  /* Subtle mint border */
+    background-color: #242424;
+    /* Dark card background */
+    border: 1px solid rgba(127, 255, 212, 0.1);
+    /* Subtle mint border */
     border-radius: 10px;
     position: relative;
     cursor: pointer;
@@ -67,7 +73,8 @@
 }
 
 .main .card p {
-    color: #ffffff;  /* Light text */
+    color: #ffffff;
+    /* Light text */
     font-size: 17px;
 }
 
@@ -93,7 +100,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;  /* Dark search box */
+    background-color: #242424;
+    /* Dark search box */
     border: 1px solid rgba(127, 255, 212, 0.1);
     padding: 10px 20px;
     border-radius: 50px;
@@ -111,11 +119,13 @@
     outline: none;
     padding: 8px;
     font-size: 18px;
-    color: #ffffff;  /* Light text */
+    color: #ffffff;
+    /* Light text */
 }
 
 .search-box input::placeholder {
-    color: #888888;  /* Lighter placeholder text */
+    color: #888888;
+    /* Lighter placeholder text */
 }
 
 .search-box div {
@@ -129,7 +139,8 @@
     margin: 15px auto;
     text-align: center;
     font-weight: 300;
-    color: #888888;  /* Lighter text for info */
+    color: #888888;
+    /* Lighter text for info */
 }
 
 .result {
@@ -141,13 +152,16 @@
 .result::-webkit-scrollbar {
     display: none;
 }
-.result-title{
+
+.result-title {
     margin: 40px 0px;
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
+    color: #ffffff;
 }
-.result img{
+
+.result img {
     width: 40px;
     border-radius: 50%;
 }
@@ -188,6 +202,7 @@
     0% {
         background-position: -800px 0px;
     }
+
     100% {
         background-position: 800px 0px;
     }
@@ -197,15 +212,19 @@
     0% {
         opacity: 1;
     }
+
     25% {
         opacity: 0.8;
     }
+
     50% {
         opacity: 1;
     }
+
     75% {
         opacity: 0.6;
     }
+
     100% {
         opacity: 1;
     }
@@ -215,22 +234,26 @@
     font-size: 17px;
     font-weight: 300;
     line-height: 1.8;
-    color: #ffffff;  /* Light text for results */
+    color: #ffffff;
+    /* Light text for results */
 }
 
-@media (max-width:600px){
-    .main-bottom input{
+@media (max-width:600px) {
+    .main-bottom input {
         flex: none;
         width: 150px;
 
     }
-    .main-bottom img{
+
+    .main-bottom img {
         width: 20px;
     }
-    .search-box{
+
+    .search-box {
         padding: 5px 10px;
     }
-    .search-box div{
+
+    .search-box div {
         gap: 5px;
 
     }
