@@ -41,7 +41,7 @@ const Main = () => {
     return (
         <div className='main'>
             <div className='nav'>
-                <p>Gemini</p>
+                <p>Mentora</p>
                 <img src={assets.user_icon} alt="User Icon" />
             </div>
 
@@ -49,16 +49,16 @@ const Main = () => {
                 {!showResult ? (
                     <>
                         <div className="greet">
-                            <p><span>Hello, Evan.</span></p>
-                            <p>How can I assist you today?</p>
+                            <p><span>Hello, Student.</span></p>
+                            <p>Ready to learn together?</p>
                         </div>
 
                         <div className="cards">
                             {[ 
-                                { text: "Suggest beautiful car museums to see on an upcoming road trip", icon: assets.compass_icon },
-                                { text: "Briefly summarize this concept: automobile engineering", icon: assets.bulb_icon },
-                                { text: "Brainstorm team bonding activities for our work retreat", icon: assets.message_icon },
-                                { text: "Improve the readability of the following code", icon: assets.code_icon },
+                                { text: "Help me understand complex calculus concepts", icon: assets.compass_icon },
+                                { text: "Create a study schedule for my upcoming exams", icon: assets.bulb_icon },
+                                { text: "Explain this programming concept in simple terms", icon: assets.message_icon },
+                                { text: "Give me practice questions for my physics test", icon: assets.code_icon },
                             ].map((item, index) => (
                                 <div key={index} className="card" onClick={() => onSent(item.text)}>
                                     <p>{item.text}</p>
@@ -94,7 +94,7 @@ const Main = () => {
                             onChange={(e) => setInput(e.target.value)} 
                             value={input} 
                             type="text" 
-                            placeholder='Enter a prompt here...' 
+                            placeholder='Ask me anything about your studies...' 
                             onKeyDown={handleKeyDown}
                         />
                         <div onClick={handleSend} style={{ cursor: "pointer" }}>
@@ -105,7 +105,7 @@ const Main = () => {
                     </div>
                     {error && <p className="error-message">{error}</p>}
                     <p className="bottom-info">
-                        Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps
+                        Mentora is your AI study companion. While we strive for accuracy, please verify important information from your course materials.
                     </p>
                 </div>
             </div>

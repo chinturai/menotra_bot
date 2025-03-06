@@ -23,13 +23,13 @@ const Sidebar = () => {
                     role="button" 
                     aria-label="Toggle menu"
                 />
-                <div onClick={newChat} className='new-chat' role="button" aria-label="New chat">
-                    <img src={assets.plus_icon} alt="New Chat" />
-                    {extended ? <p>New Chat</p> : null}
+                <div onClick={newChat} className='new-chat' role="button" aria-label="New study session">
+                    <img src={assets.plus_icon} alt="New Session" />
+                    {extended ? <p>New Session</p> : null}
                 </div>
                 {extended ? (
                     <div className="recent">
-                        <p className="recent-title">Recent</p>
+                        <p className="recent-title">Recent Sessions</p>
                         {prevPrompts.map((item, index) => (
                             <div 
                                 key={index} 
@@ -46,13 +46,13 @@ const Sidebar = () => {
                 ) : null}
             </div>
             <div className="bottom">
-                <div className="bottom-item recent-entry" role="button" aria-label="Help">
-                    <img src={assets.question_icon} alt="Help Icon" />
-                    {extended ? <p>Help</p> : null}
+                <div className="bottom-item recent-entry" role="button" aria-label="Study Resources">
+                    <img src={assets.question_icon} alt="Resources Icon" />
+                    {extended ? <p>Resources</p> : null}
                 </div>
-                <div className="bottom-item recent-entry" role="button" aria-label="Activity">
-                    <img src={assets.history_icon} alt="Activity Icon" />
-                    {extended ? <p>Activity</p> : null}
+                <div className="bottom-item recent-entry" role="button" aria-label="Study History">
+                    <img src={assets.history_icon} alt="History Icon" />
+                    {extended ? <p>History</p> : null}
                 </div>
                 <div className="bottom-item recent-entry" role="button" aria-label="Settings">
                     <img src={assets.setting_icon} alt="Settings Icon" />
